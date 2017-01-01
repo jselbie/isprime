@@ -33,8 +33,7 @@ bool isPrime(long long n)
                     0       4   6      10  12      16          22  24         *30
  3          x           x           x           x           x           x           x           x           x
  5              x                   x                   x                   x                   x
-
-
+*/
 
     long long d = 7;  // ASSERT: d must be in the seed table above
     long long stop = sqrt(n) + 1;  // +1 to account for all rounding errors especially in the really large numbers where sqrt can't be precise
