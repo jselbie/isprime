@@ -76,7 +76,6 @@ bool isPrime(long long n)
     long long root = intSqrt(n);
     if (root == 0)
     {
-        root = n / 2;
         root = (intSqrt(n / 2) * 142) / 100;   // 142/100 == sqrt(2)
     }
     const long long stop = root + 1; // +1 to deal with rounding errors from computing the floored square root
